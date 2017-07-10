@@ -1,4 +1,4 @@
-# Looking for available camping site from www.reserveamerica.com and email you
+# Looking for available camping site from reserveamerica
 
 #### Configurate main.py
 * Add parks that you want to looking for. You need to figure out the `contractCode` and `parkId` of each park. Open any page of a park in www.reserveamerica.com, you will see the `contractCode` and the `parkId` in the  url. 
