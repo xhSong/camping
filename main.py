@@ -24,9 +24,6 @@ if __name__ == '__main__':
   # JULIA PFEIFFER BURNS SP, CA
   sites.extend(check_park_for_n_weeks('CA', 120045))
 
-  # BOTHE-NAPA VALLEY SP, CA
-  sites.extend(check_park_for_n_weeks('CA', 120011))
-
   # TODO: Add your own filter here.
   sites = [site for site in sites if site.date.isoweekday() in [5, 6]]
 
